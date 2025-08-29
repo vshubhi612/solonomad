@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/fsq/:path*",    "destination": "https://places-api.foursquare.com/:path*" },
+    { "source": "/gemini/:path*", "destination": "https://generativelanguage.googleapis.com/:path*" }
+  ]
+}
