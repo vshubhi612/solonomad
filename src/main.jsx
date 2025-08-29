@@ -8,11 +8,11 @@ console.log('[ENV] VITE_FSQ_API_KEY    =', import.meta.env.VITE_FSQ_API_KEY)
 console.log('[ENV] MODE                =', import.meta.env.MODE)
 
 // Basic PWA service worker registration
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => {});
-  });
-}
+// if ('serviceWorker' in navigator) {
+//   window.addEventListener('load', () => {
+//     navigator.serviceWorker.register('/sw.js').catch(() => {});
+//   });
+// }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
