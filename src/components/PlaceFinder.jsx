@@ -10,6 +10,8 @@ export default function PlaceFinder({ location }) {
     const fetchPlaces = async () => {
       setLoading(true);
       setError('');
+      console.log("Fetching places for location:", location);
+      console.log("Using FSQ API key:", import.meta.env.VITE_FSQ_API_KEY);
       try {
         const res = await axios.get('/fsq/places/search', {
           headers: {
