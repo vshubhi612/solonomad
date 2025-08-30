@@ -1,11 +1,11 @@
 # SoloNomad
 
-An AI-powered, agentic travel companion (PWA) using the **Foursquare Places API** and **OpenAI**.
+An AI-powered, agentic travel companion (PWA) using the **Foursquare Places API** and **Goggle Gemini**.
 
 ## Features
 - Find nearby places (`/places/search`)
 - Fetch rich details for selected places (`/places/{fsq_id}`)
-- Planner & Challenge agents powered by OpenAI
+- Planner & Challenge agents powered by Gemini
 - PWA with basic offline cache
 - Vite + React + TailwindCSS
 
