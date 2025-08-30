@@ -18,8 +18,8 @@ npm run dev
 ### Environment Variables
 Create a `.env` file at project root:
 ```
-VITE_FSQ_API_KEY=fsq_your_key_here
-VITE_GEMINI_API_KEY=sk_your_key_here
+VITE_FSQ_API_KEY=your_key_here
+VITE_GEMINI_API_KEY=your_key_here
 ```
 
 > **Note:** For FSQ, use the *token* value directly as the `Authorization` header.
