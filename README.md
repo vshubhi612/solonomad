@@ -19,7 +19,7 @@ npm run dev
 Create a `.env` file at project root:
 ```
 VITE_FSQ_API_KEY=fsq_your_key_here
-VITE_OPENAI_API_KEY=sk_your_key_here
+VITE_GEMINI_API_KEY=sk_your_key_here
 ```
 
 > **Note:** For FSQ, use the *token* value directly as the `Authorization` header.
